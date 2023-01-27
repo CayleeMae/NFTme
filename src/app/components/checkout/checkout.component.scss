@@ -28,13 +28,16 @@
 
 .coinbase_Logo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 160px;
   height: 50px;
+  padding-left: 9.5em;
   border-radius: 5px;
   justify-content: space-between;
-  background-color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
 }
 
 .payment-card {

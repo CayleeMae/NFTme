@@ -7,7 +7,7 @@
         <h1>LOGIN</h1>
     </div>
     <form (ngSubmit)="onSubmit()">
-        <div *ngIf="!userIsValid"> Please Try Again!</div>
+        <div *ngIf="!userIsValid" class="user-validation"> Please Try Again!</div>
         <div class="username_field">
             <input id="username" type="text" class="form-control login_fields" formControlName="username" required
                 placeholder="Username" />
@@ -62,7 +62,7 @@
         <p class="order-detail-welcome">Welcome Caylee,<p>
             <div class="order-detail-balance">
                 <p class="balance">Balance: 5 BTC</p>
-                <p class="balance">Purchase Total: 2 BTC</p>
+                <p class="balance">Purchase Total: 3 BTC</p>
             </div>
             <div class="buttons">
             <button class="order-detail-cancel" (click)="this.dialogRef.close()">Cancel</button>

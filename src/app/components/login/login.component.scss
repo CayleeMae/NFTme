@@ -68,7 +68,7 @@ button {
   width: 380px;
   height: 420px;
   padding: 4em;
-  margin-left: 41em;
+  margin-left: 48em;
   margin-top: 13em;
   background: #1c1c1c;
   border-radius: 8px;
@@ -230,6 +230,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10em;
 }
 
 .center {
@@ -276,3 +277,11 @@ svg {
   font-size: 18px;
   font-weight: 100;
 }
+
+.login-logo {
+  width: 160px;
+  height: 148px;
+  padding: 0em 0em 0em 9em;
+  margin-bottom: 4em;
+}
+

@@ -38,9 +38,8 @@ img {
   font-size: 1em;
   letter-spacing: 0.05em;
   z-index: 10;
-  border: 1px solid white;
   border-radius: 0.5em;
-  color: white;
+  color: grey;
 }
 
 button {
@@ -91,6 +90,10 @@ button {
 .username_field {
   border: 2px solid grey;
   height: 2.5em;
+}
+
+.user-validation {
+  color: red;
 }
 
 .password_field {
